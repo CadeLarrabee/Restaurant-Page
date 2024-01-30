@@ -1,0 +1,26 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "a restaurant page created in js with webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CadeLarrabee/Restaurant-Page.git"
+  },
+  "author": "Cade Larrabee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CadeLarrabee/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/CadeLarrabee/Restaurant-Page#readme",
+  "devDependencies": {
+    "css-loader": "^6.9.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
