@@ -89,7 +89,7 @@ export function GenerateMenuPage() {
 
     items.forEach((item) => {
       const itemWrapper = document.createElement("div");
-      itemWrapper.className = "menuItem";
+      itemWrapper.className = "card";
 
       const itemName = document.createElement("h1");
       itemName.textContent = `${item.name}`;

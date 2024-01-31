@@ -2,13 +2,17 @@
   padding: 0px;
   margin: 0px;
 }
-
+body {
+  background-image: url(./Images/leaves.webp);
+}
 .headerContainer {
   width: 100%;
   height: 600px;
   background-image: url("./Images/cappHeader.jpg");
   background-size: 100%, 600px;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
 }
 .homePageWrapper {
   width: 100%;
@@ -18,6 +22,46 @@
   height: 1000px;
   gap: 20px;
   padding-top: 50px;
+}
+.card {
+  height: 250px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #009688;
+  padding: 40px;
+  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px,
+    inset #0cab9c 0 0 0 10px, inset #9bb291 0 0 0 11px, inset #c4f4c7 0 0 0 16px,
+    inset #c7ffda 0 0 0 17px, inset #d9fff8 0 0 0 21px, inset #e8e1ef 0 0 0 22px;
+  text-shadow: 3px 3px 1px #bfecf7;
+  gap: 30px;
+}
+.card h1 {
+  align-self: center;
+  justify-self: center;
+}
+li {
+  padding-left: 10px;
+  list-style-type: none;
+}
+button {
+  height: 100px;
+  width: 300px;
+  border: black;
+  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px,
+    inset #0cab9c 0 0 0 10px, inset #9bb291 0 0 0 11px, inset #c4f4c7 0 0 0 16px,
+    inset #c7ffda 0 0 0 17px, inset #d9fff8 0 0 0 21px, inset #e8e1ef 0 0 0 22px;
+  text-shadow: 3px 3px 1px #bfecf7;
+  opacity: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 28px;
+  font-weight: 600;
 }
 .menuContainer {
   display: flex;
@@ -46,6 +90,13 @@
   height: 200px;
   width: 300px;
   gap: 20px;
+}
+.form {
+  width: 550px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contactForm {
   width: 500px;

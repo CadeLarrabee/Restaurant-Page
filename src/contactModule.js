@@ -1,6 +1,7 @@
 export function GenerateContactPage() {
   const form = document.createElement("form");
-  form.setAttribute("id", "myForm");
+  form.classList.add("form");
+  form.classList.add("card");
 
   // Create form elements (e.g., input fields, labels, buttons)
   const nameLabel = document.createElement("label");

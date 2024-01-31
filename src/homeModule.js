@@ -9,6 +9,7 @@ export function GenerateHomePage() {
 
   const titlewrapper = document.createElement("div");
   titlewrapper.className = "titleWrapper";
+  titlewrapper.classList.add("card");
 
   const titlebar = document.createElement("h1");
   titlebar.textContent = "Cade's Cafe";
@@ -24,12 +25,13 @@ export function GenerateHomePage() {
   helloP.textContent =
     "Welcome to Cade's Cafe! We serve tons of delicious drinks, made exactly how you specify! With our single source coffee, bubble tea, and matcha, there is sure to be something to suit your fancy!";
   aboutwrapper.appendChild(helloP);
-  homepagewrapper.appendChild(aboutwrapper);
+  titlewrapper.appendChild(aboutwrapper);
 
   //generate the hours/schedule wrapper
 
   const hourswrapper = document.createElement("div");
   hourswrapper.className = "hoursWrapper";
+  hourswrapper.classList.add("card");
 
   const schedule = [
     { day: "Sunday", hours: "8am - 8pm" },
@@ -60,7 +62,8 @@ export function GenerateHomePage() {
   //Location Wrapper
 
   const locationwrapper = document.createElement("div");
-  locationwrapper.className = "hoursWrapper";
+  locationwrapper.className = "locationWrapper";
+  locationwrapper.classList.add("card");
 
   const locationtitle = document.createElement("h1");
   locationtitle.textContent = "Location";
