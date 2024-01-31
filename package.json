@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/CadeLarrabee/Restaurant-Page#readme",
   "devDependencies": {
-    "css-loader": "^6.9.1",
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
     "style-loader": "^3.3.4",
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4"

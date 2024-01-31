@@ -1,13 +1,18 @@
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/src/fonts/JosefinSans-VariableFont_wght.ttf"), format("truetype");
+}
 * {
   padding: 0px;
   margin: 0px;
 }
 body {
   background-image: url(./Images/leaves.webp);
+  font-family: "JosefinSans";
 }
 .headerContainer {
   width: 100%;
-  height: 600px;
+  height: 75vh;
   background-image: url("./Images/cappHeader.jpg");
   background-size: 100%, 600px;
   background-repeat: no-repeat;
